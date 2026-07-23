@@ -3,133 +3,28 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Contact — Gromitek</title>
-  <meta name="description" content="Get in touch with Gromitek for automation engineering, commissioning and start-up projects." />
-  <link rel="canonical" href="https://gromitek.com/contact.html" />
-  <link rel="icon" type="image/svg+xml" href="images/favicon.svg" />
-
-  <meta property="og:type" content="website" />
-  <meta property="og:site_name" content="Gromitek" />
-  <meta property="og:title" content="Contact — Gromitek" />
-  <meta property="og:description" content="Get in touch with Gromitek for automation engineering, commissioning and start-up projects." />
-  <meta property="og:url" content="https://gromitek.com/contact.html" />
-  <meta name="twitter:card" content="summary" />
-  <meta name="twitter:title" content="Contact — Gromitek" />
-  <meta name="twitter:description" content="Get in touch with Gromitek for automation engineering, commissioning and start-up projects." />
-
-  <link rel="preconnect" href="https://fonts.googleapis.com" />
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@600;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet" />
-  <link rel="stylesheet" href="css/style.css" />
-  <script type="application/ld+json">
-  {
-    "@context": "https://schema.org",
-    "@type": "ProfessionalService",
-    "name": "Gromitek",
-    "legalName": "Miloš Slijepčević PR Gromitek",
-    "url": "https://gromitek.com",
-    "email": "m.slijepcevic@gromitek.com",
-    "telephone": "+381642950066",
-    "description": "Industrial automation engineering, commissioning and start-up services for the steel long products sector.",
-    "areaServed": "Worldwide",
-    "founder": {
-      "@type": "Person",
-      "name": "Miloš Slijepčević",
-      "jobTitle": "Senior Automation Engineer"
+  <title>Site Under Construction</title>
+  <meta name="robots" content="noindex" />
+  <style>
+    html, body {
+      height: 100%;
+      margin: 0;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background: #0b3954;
+      color: #eaf6fc;
+      font-family: "Segoe UI", Roboto, Arial, sans-serif;
+      text-align: center;
     }
-  }
-  </script>
+    p {
+      font-size: 1.1rem;
+      margin: 0;
+      padding: 0 1.5rem;
+    }
+  </style>
 </head>
 <body>
-
-  <header class="site-header">
-    <nav class="nav">
-      <a class="nav__brand" href="index.html">GROMITEK</a>
-      <button class="nav__toggle" aria-label="Toggle navigation" aria-expanded="false">&#9776;</button>
-      <ul class="nav__links">
-        <li><a href="index.html">Home</a></li>
-        <li><a href="about.html">About</a></li>
-        <li><a href="services.html">Services</a></li>
-        <li><a href="contact.html" aria-current="page">Contact</a></li>
-      </ul>
-    </nav>
-  </header>
-
-  <section class="hero hero--page">
-    <div class="container">
-      <h1>Contact</h1>
-      <p>Let's talk about your line, your timeline, and where Gromitek can help.</p>
-    </div>
-  </section>
-
-  <section class="section">
-    <div class="container contact-grid">
-      <div class="contact-info reveal">
-        <h2>Get in touch</h2>
-        <dl>
-          <dt>Company</dt>
-          <dd>Miloš Slijepčević PR Gromitek</dd>
-          <dt>Email</dt>
-          <dd><a href="mailto:m.slijepcevic@gromitek.com">m.slijepcevic@gromitek.com</a></dd>
-          <dt>Phone</dt>
-          <dd><a href="tel:+381642950066">+381 64 2950066</a></dd>
-        </dl>
-      </div>
-
-      <div class="reveal">
-        <h2>Send a message</h2>
-        <!--
-          Submits via Web3Forms (free tier) using fetch in js/main.js,
-          so visitors get a success/error message without leaving the
-          page. GitHub Pages only serves static files, so this relies
-          on Web3Forms' API to actually deliver the email.
-        -->
-        <form id="contact-form">
-          <input type="hidden" name="access_key" value="ed8f82f1-ebfe-458b-ad3f-e04daf593a26" />
-          <input type="hidden" name="subject" value="New message from gromitek.com contact form" />
-          <input type="checkbox" name="botcheck" style="display:none;" tabindex="-1" autocomplete="off" />
-          <div>
-            <label for="name">Name</label>
-            <input type="text" id="name" name="name" required />
-          </div>
-          <div>
-            <label for="email">Email</label>
-            <input type="email" id="email" name="email" required />
-          </div>
-          <div>
-            <label for="message">Message</label>
-            <textarea id="message" name="message" required></textarea>
-          </div>
-          <button class="btn" type="submit" style="border:none; cursor:pointer;">Send message</button>
-          <p id="form-status" role="status"></p>
-        </form>
-      </div>
-    </div>
-  </section>
-
-  <footer class="site-footer">
-    <div class="container">
-      <div>
-        <strong>Gromitek</strong><br />
-        Miloš Slijepčević PR Gromitek<br />
-        <a href="mailto:m.slijepcevic@gromitek.com">m.slijepcevic@gromitek.com</a><br />
-        <a href="tel:+381642950066">+381 64 2950066</a>
-      </div>
-      <div>
-        <a href="index.html">Home</a><br />
-        <a href="about.html">About</a><br />
-        <a href="services.html">Services</a><br />
-        <a href="contact.html">Contact</a>
-      </div>
-      <div class="legal">
-        Gromitek © <span data-year>2026</span>. All rights reserved.
-      </div>
-    </div>
-  </footer>
-
-  <script src="js/main.js" defer></script>
-  <!-- Cloudflare Web Analytics -->
-  <script type='module' src='https://static.cloudflareinsights.com/beacon.min.js' data-cf-beacon='{"token": "07573e4908fc4e39842f2b16efb94aca"}'></script>
-  <!-- End Cloudflare Web Analytics -->
+  <p>Site under construction. Back soon.</p>
 </body>
 </html>
